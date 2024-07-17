@@ -7,5 +7,20 @@
     "action": {
         "default_popup": "index.html",
         "default_title": "QR Code Generator"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'"
+    },
+    "background": {
+        "service_worker": "script.js"
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
     }
+
 }

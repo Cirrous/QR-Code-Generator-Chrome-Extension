@@ -6,10 +6,12 @@
 
 body{
     background-color: #18242c;
+    width: 300px;
+    height: 420px;
 }
 
 .container {
-    width: 400px;
+    width: 300px;
     padding: 25px 35px;
     position: absolute;
     top: 50%;
