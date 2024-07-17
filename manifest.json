@@ -1,22 +1,14 @@
 {
     "name": "QR Code Generator",
-    "version": "1.0.0",
-    "description": "This is an extension that generates a QR Code from the Webpage your currently on or every other page/text you type in",
+    "version": "1.0",
+    "description": "Generates a QR Code from the Webpage your currently on or every other page/text you type in",
     "manifest_version": 3,
     "author": "Christian Raisch",
     "action": {
         "default_popup": "index.html",
         "default_title": "QR Code Generator"
     },
-    "permissions": [
-        "activeTab"
-    ],
-    "content_security_policy": {
-        "extension_pages": "script-src 'self' ; object-src 'self'"
-    },
-    "background": {
-        "service_worker": "script.js"
-    },
+    
     "icons": {
         "16": "icon.png",
         "48": "icon.png",
