@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('qrText').value = window.location.href;
     document.getElementById('generateButton').addEventListener('click', function () {
         generateQR();
     });
